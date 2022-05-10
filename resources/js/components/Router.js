@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import IntroductionHook from './IntroductionHooks';
 
 function RouterLoader() {
     return (
@@ -10,6 +11,7 @@ function RouterLoader() {
                         <div className="card-header">RouterLoader Component</div>
 
                         <div className="card-body">I'm an RouterLoader component!</div>
+                        <IntroductionHook />
                     </div>
                 </div>
             </div>
